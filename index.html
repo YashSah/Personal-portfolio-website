@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash Sah - Portfolio Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ac73a5c866.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="minicircle"></div>
+    <div id="main">
+
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo2.png" class="logo" />
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Service</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+
+                <div class="header-text">
+                    <p>UI/UX Designer</p>
+                    <p>Web and App developer</p>
+                    <h1>Hi, I'm <span>Yash </span><br> Sah from India</h1>
+                </div>
+            </div>
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/img-1.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Hello and welcome to my personal portfolio website! My name is Yash Sah, and I am a passionate and motivated fresher pursuing a Bachelor's degree in Computer Science and Engineering. I am thrilled to share my journey, skills, and
+                            aspirations with you.<br> During my time at Tula's Institute, I have developed a strong foundation in computer science and programming languages. Through coursework, projects, and hands-on experiences, I have honed my skills
+                            in areas such as data structures, algorithms, web developement and app development. I am also proficient in programming languages like Java, C, python, and dart.<br> As I embark on my professional journey, I am eager to apply
+                            my skills and contribute to the dynamic field of computer science. I am seeking opportunities where I can work on challenging projects, learn from experienced mentors, and make a positive impact. I am open to exploring diverse
+                            areas.
+                            <br> Thank you for taking the time to visit my website and learn more about me. I invite you to explore my portfolio to gain a deeper understanding of my capabilities. If you have any inquiries or would like to discuss potential
+                            collaboration opportunities, please feel free to reach out to me. I look forward to connecting with you!
+                        </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                                <li><span>Web Development</span><br>Building interactive Websites</li>
+                                <li><span>App Development</span><br>Building Android/iOS apps</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2018</span><br>10th from Koormanchal Academy, Almora</li>
+                                <li><span>2020</span><br>12th from Koormanchal Academy, Almora</li>
+                                <li><span>2024</span><br>BTech CSE from Tula's Institute, Dehradun</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="services">
+            <div id="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>I am passionate about creating visually stunning and highly functional websites that leave a lasting impression. I understand that a well-designed website is the cornerstone of any successful online presence, and I am here to help
+                            you achieve your digital goals. With a keen eye for aesthetics and a dedication to creating functional and user-friendly websites, I strive to bring your ideas to life in the digital world.</p>
+                    </div>
+                    <div>
+                        <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>As a dedicated UI/UX designer, my commitment is to breathe life into your digital experiences through intuitive and visually appealing interfaces. I am passionate about crafting engaging and seemless user interactions that drive
+                            customer satisfaction and business success. </p>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>App Design</h2>
+                        <p>As a cross-platform application developer that uses flutter framework, I bring your ideas to life and create stunning, user-friendly applications that leave a lasting impact. I combines creativity, technical expertise and experience
+                            to deliver top-notch app designs tailored to your specific needs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/img-4.jpg">
+                        <div class="layer">
+                            <h3>Apple Vision Pro website clone</h3>
+                            <p>A clone website of the original Apple vision Pro website, developed using HTML, CSS, javascript library gsap and canvas</p>
+                            <a href="https://github.com/YashSah/AppleVisionPro-website-clone"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/img-5.jpg">
+                        <div class="layer">
+                            <h3>Golf Website</h3>
+                            <p>This project is a clone of the Sidcup Family Golf website, developed to showcase the design of the original website. The Sidcup Family Golf Website Clone is created with the aim of providing an interface similar to the original
+                                website.
+                            </p>
+                            <a href="https://github.com/YashSah/golf-website-"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/img-3.jpg">
+                        <div class="layer">
+                            <h3>Google Search</h3>
+                            <p>An application designed similar to that of google search that uses google api to search results and It is optimised for both web and phone.</p>
+                            <a href="https://github.com/YashSah/Google-Search-Clone"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://github.com/YashSah?tab=repositories" class="btn">See more</a>
+            </div>
+        </div>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> yashsahyashu4752@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> 7505591745</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/yash.sah.108"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/yashsahyashu/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/yash-sah-b74169209/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://wa.me/7505591745?text=Hello%2C%20I%20have%20a%20question%20about%20your%20service.%20can%20you%20please%20help%20me%3F"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="https://github.com/YashSah"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <a href="images/myResume.pdf" download class="btn btn2">Download Resume</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" id="" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © 2023. All rights reserved. Made with <i class="fa-solid fa-heart"></i> by Yash Sah</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="script.js"></script>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
