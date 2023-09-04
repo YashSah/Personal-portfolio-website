@@ -16,10 +16,11 @@ body {
 
 #minicircle {
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
-    width: 10px;
-    height: 10px;
+    width: 11px;
+    height: 11px;
     position: absolute;
     z-index: 9999;
+    mix-blend-mode: difference;
     background-color: #fff;
     border-radius: 50%;
 }
